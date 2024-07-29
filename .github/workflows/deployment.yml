@@ -9,7 +9,7 @@ jobs:
       - name: Super-linter
         uses: super-linter/super-linter@v6.7.0
   test:
-  needs: lint
+    needs: lint
     runs-on: ubuntu-latest
     steps:
       - name: Get code
